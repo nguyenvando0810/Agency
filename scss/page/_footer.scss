@@ -1,0 +1,17 @@
+.footer {
+    padding: 25px 0;
+    text-align: center;
+    .copyright {
+        font-family: $font_montserat;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .qicklinks {
+        line-height: 40px;
+        a {
+            font-size: 15px;
+            color: #fed136 !important;
+            font-family: $font_montserat;
+        }
+    }
+}

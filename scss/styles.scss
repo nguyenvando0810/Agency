@@ -1,0 +1,10 @@
+        
+        /* @import "bootstrap and font-awesome";*/
+        @import "vendor/bootstrap";
+        @import "vendor/font-awesome";
+        
+        /*Import file setting*/
+        @import "base/setting";
+
+        /* Import trang content.*/
+        @import "page/page";

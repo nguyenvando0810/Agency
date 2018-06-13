@@ -1,0 +1,40 @@
+.ourteam {
+    padding: 150px 0;
+    &__member {
+        img {
+            width: 225px;
+            height: 225px;
+            border: 7px solid #fff;
+        }
+        h4 {
+            font-family: $font_montserat;
+            font-weight: 700;
+            margin-top: 25px;
+        }
+        p {
+            color: #6c757d;
+            font-family: 'Roboto Slab', serif;
+        }
+    }
+    &__icon {
+        a {
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            display: inline-block;
+            background-color: #212529;
+            line-height: 40px;
+            color: #fff;
+            margin-right: 8px;
+            border-radius: 100%;
+            &:hover {
+                background-color: #fed136;
+                transition: all .3s;
+            }
+        }
+    }
+    &__quotes {
+        color: #6c757d;
+        font-family: 'Roboto Slab', serif;
+    }
+}

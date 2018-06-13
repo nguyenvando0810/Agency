@@ -1,0 +1,45 @@
+.contact {
+    padding: 150px 0;
+    background-image: url('../images/map-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #212529;
+    &__heading
+    {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: $font_montserat;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+    input
+    {
+        padding: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #6c757d;
+        font-family: $font_montserat;
+    }
+    textarea{
+        width: 100%;
+        max-width: 100%;
+        height: 257px;
+        min-height: 257px;
+        padding: 20px;
+        color: #6c757d;
+        font-size: 22px;
+        font-weight: 700;
+        border-radius: 4px ;
+        font-family: $font_montserat;
+    }
+    &__btn
+    {
+        background: #fed136;
+        padding: 20px 40px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: $font_montserat;
+    }
+}

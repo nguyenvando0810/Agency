@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Font;
+    src: url('../fonts/DroidSerif-Italic.ttf');
+    font-weight: bold;
+}
+$color_logo:#fed136;
+$font_montserat:'Montserrat', sans-serif;
+.nav-bg
+{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    background-color: #212529!important;
+    transition: 0.5s;
+}
+.logo-small
+{
+    font-size: 20px!important;
+    transition: 0.5s;
+}
+.spacing-link
+{
+   padding: 20px 15px!important;
+}

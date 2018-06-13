@@ -1,0 +1,92 @@
+.menu {
+    border: none;
+    background-color: transparent;
+    &__logo {
+        color: $color_logo !important;
+        font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+        font-size: 28px;
+    }
+    button {
+        background: #fed136;
+        color: #fff !important;
+        font-family: $font_montserat;
+        font-size: 12px;
+        padding: 13px;
+    }
+    &__menu {
+        .nav-link {
+            color: #fff !important;
+            font-weight: 300;
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            font-family: $font_montserat;
+            &:hover {
+                color: $color_logo !important;
+            }
+        }
+    }
+}
+
+.header {
+    text-align: center;
+    color: #fff;
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    &__banner {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+    &__title {
+        font-size: 40px;
+        font-style: italic;
+        font-family: font;
+        margin-bottom: -5px;
+        font-weight: 200;
+    }
+    &__heading {
+        font-size: 75px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    &__btn {
+        background: yellow;
+        font-size: 18px;
+        padding: 20px 42px;
+        background-color: $color_logo;
+        border-color: $color_logo;
+        border-radius: 4px;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 700;
+        &:hover {
+            color: #fff;
+            background-color: #ffc107;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        &__title {
+            font-size: 22px;
+        }
+        &__heading {
+            font-size: 50px;
+        }
+    }
+    .menu {
+        // border: none;
+    background-color: #212529!important;
+    &__logo {
+    
+        font-size: 1.25em;
+    }
+    }
+}

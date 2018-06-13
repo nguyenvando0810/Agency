@@ -1,0 +1,44 @@
+.services {
+    padding: 150px 0;
+    &__heading {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: $font_montserat;
+        margin-bottom: 15px;
+    }
+    &__subheading {
+        font-family: font;
+        font-size: 16px;
+        color: #6c757d;
+        margin-bottom: 75px;
+    }
+    &__icon {
+        .cart {
+            color: #fff;
+            background: $color_logo;
+            padding: 23px 26px;
+            border-radius: 100%;
+        }
+        .laptop {
+            @extend .cart;
+            padding: 23px 22px;
+        }
+        .lock {
+            @extend .cart;
+            padding: 24px 36px;
+        }
+    }
+    &__title {
+        margin: 15px 0;
+        font-family: $font_montserat;
+        font-weight: 700;
+    }
+    &__description {
+        color: #6c757d;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.75;
+        padding: 0 10px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
